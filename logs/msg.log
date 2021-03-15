@@ -1,0 +1,389 @@
+2021-03-15 11:05:34.604  INFO 1260 --- [main] c.fujinjin.river.RiverApplicationTests   : Starting RiverApplicationTests using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 1260 (started by 86176 in D:\javawj\river)
+2021-03-15 11:05:34.606  INFO 1260 --- [main] c.fujinjin.river.RiverApplicationTests   : No active profile set, falling back to default profiles: default
+2021-03-15 11:05:36.491  INFO 1260 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:05:37.049  INFO 1260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:05:37.066  INFO 1260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 3 custom documentation plugin(s)
+2021-03-15 11:05:37.094  INFO 1260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:05:37.204  INFO 1260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:05:37.253  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2021-03-15 11:05:37.258  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-15 11:05:37.259  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_1
+2021-03-15 11:05:37.260  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_1
+2021-03-15 11:05:37.262  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_1
+2021-03-15 11:05:37.263  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_1
+2021-03-15 11:05:37.264  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_1
+2021-03-15 11:05:37.264  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_1
+2021-03-15 11:05:37.265  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_1
+2021-03-15 11:05:37.269  INFO 1260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:05:37.271  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2021-03-15 11:05:37.272  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2021-03-15 11:05:37.274  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2021-03-15 11:05:37.275  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2021-03-15 11:05:37.276  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2021-03-15 11:05:37.278  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2021-03-15 11:05:37.280  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2021-03-15 11:05:37.281  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2021-03-15 11:05:37.288  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingGET_1
+2021-03-15 11:05:37.289  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingHEAD_1
+2021-03-15 11:05:37.290  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPOST_1
+2021-03-15 11:05:37.291  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPUT_1
+2021-03-15 11:05:37.292  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPATCH_1
+2021-03-15 11:05:37.293  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingDELETE_1
+2021-03-15 11:05:37.293  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingOPTIONS_1
+2021-03-15 11:05:37.294  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingTRACE_1
+2021-03-15 11:05:37.296  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_2
+2021-03-15 11:05:37.298  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-15 11:05:37.299  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_2
+2021-03-15 11:05:37.299  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_2
+2021-03-15 11:05:37.300  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_2
+2021-03-15 11:05:37.300  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_2
+2021-03-15 11:05:37.301  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_2
+2021-03-15 11:05:37.302  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_2
+2021-03-15 11:05:37.302  INFO 1260 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_2
+2021-03-15 11:05:37.315  INFO 1260 --- [main] c.fujinjin.river.RiverApplicationTests   : Started RiverApplicationTests in 2.978 seconds (JVM running for 3.91)
+2021-03-15 11:06:45.002  INFO 3220 --- [main] com.fujinjin.river.RiverApplication      : Starting RiverApplication using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 3220 (D:\javawj\river\target\classes started by 86176 in D:\javawj\river)
+2021-03-15 11:06:45.003  INFO 3220 --- [main] com.fujinjin.river.RiverApplication      : No active profile set, falling back to default profiles: default
+2021-03-15 11:06:46.100  INFO 3220 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:06:46.436  INFO 3220 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:06:46.449  INFO 3220 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 3 custom documentation plugin(s)
+2021-03-15 11:06:46.466  INFO 3220 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:06:46.534  INFO 3220 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:06:46.560  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2021-03-15 11:06:46.562  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-15 11:06:46.563  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_1
+2021-03-15 11:06:46.564  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_1
+2021-03-15 11:06:46.564  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_1
+2021-03-15 11:06:46.565  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_1
+2021-03-15 11:06:46.566  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_1
+2021-03-15 11:06:46.566  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_1
+2021-03-15 11:06:46.567  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_1
+2021-03-15 11:06:46.569  INFO 3220 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:06:46.571  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2021-03-15 11:06:46.571  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2021-03-15 11:06:46.572  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2021-03-15 11:06:46.573  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2021-03-15 11:06:46.574  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2021-03-15 11:06:46.574  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2021-03-15 11:06:46.575  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2021-03-15 11:06:46.576  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2021-03-15 11:06:46.581  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingGET_1
+2021-03-15 11:06:46.581  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingHEAD_1
+2021-03-15 11:06:46.582  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPOST_1
+2021-03-15 11:06:46.582  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPUT_1
+2021-03-15 11:06:46.583  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPATCH_1
+2021-03-15 11:06:46.584  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingDELETE_1
+2021-03-15 11:06:46.584  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingOPTIONS_1
+2021-03-15 11:06:46.585  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingTRACE_1
+2021-03-15 11:06:46.587  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_2
+2021-03-15 11:06:46.590  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-15 11:06:46.590  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_2
+2021-03-15 11:06:46.591  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_2
+2021-03-15 11:06:46.592  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_2
+2021-03-15 11:06:46.592  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_2
+2021-03-15 11:06:46.595  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_2
+2021-03-15 11:06:46.596  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_2
+2021-03-15 11:06:46.596  INFO 3220 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_2
+2021-03-15 11:06:46.606  INFO 3220 --- [main] com.fujinjin.river.RiverApplication      : Started RiverApplication in 1.807 seconds (JVM running for 2.475)
+2021-03-15 11:40:46.308  INFO 13396 --- [main] com.fujinjin.river.RiverApplication      : Starting RiverApplication using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 13396 (D:\javawj\river\target\classes started by 86176 in D:\javawj\river)
+2021-03-15 11:40:46.309  INFO 13396 --- [main] com.fujinjin.river.RiverApplication      : No active profile set, falling back to default profiles: default
+2021-03-15 11:40:47.464  INFO 13396 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:40:47.797  INFO 13396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:40:47.806  INFO 13396 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 3 custom documentation plugin(s)
+2021-03-15 11:40:47.821  INFO 13396 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:40:47.882  INFO 13396 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:40:47.906  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2021-03-15 11:40:47.908  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-15 11:40:47.909  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_1
+2021-03-15 11:40:47.909  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_1
+2021-03-15 11:40:47.910  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_1
+2021-03-15 11:40:47.910  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_1
+2021-03-15 11:40:47.911  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_1
+2021-03-15 11:40:47.911  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_1
+2021-03-15 11:40:47.912  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_1
+2021-03-15 11:40:47.914  INFO 13396 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:40:47.915  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2021-03-15 11:40:47.916  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2021-03-15 11:40:47.917  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2021-03-15 11:40:47.917  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2021-03-15 11:40:47.918  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2021-03-15 11:40:47.919  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2021-03-15 11:40:47.919  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2021-03-15 11:40:47.920  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2021-03-15 11:40:47.924  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingGET_1
+2021-03-15 11:40:47.925  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingHEAD_1
+2021-03-15 11:40:47.925  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPOST_1
+2021-03-15 11:40:47.926  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPUT_1
+2021-03-15 11:40:47.926  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPATCH_1
+2021-03-15 11:40:47.927  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingDELETE_1
+2021-03-15 11:40:47.927  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingOPTIONS_1
+2021-03-15 11:40:47.928  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingTRACE_1
+2021-03-15 11:40:47.929  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_2
+2021-03-15 11:40:47.934  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-15 11:40:47.936  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_2
+2021-03-15 11:40:47.937  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_2
+2021-03-15 11:40:47.937  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_2
+2021-03-15 11:40:47.938  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_2
+2021-03-15 11:40:47.938  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_2
+2021-03-15 11:40:47.939  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_2
+2021-03-15 11:40:47.939  INFO 13396 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_2
+2021-03-15 11:40:47.947  INFO 13396 --- [main] com.fujinjin.river.RiverApplication      : Started RiverApplication in 1.856 seconds (JVM running for 2.426)
+2021-03-15 11:41:28.870  INFO 13396 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 11:41:29.241  INFO 13396 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 11:49:48.183  INFO 8444 --- [main] com.fujinjin.river.RiverApplication      : Starting RiverApplication using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 8444 (D:\javawj\river\target\classes started by 86176 in D:\javawj\river)
+2021-03-15 11:49:48.184  INFO 8444 --- [main] com.fujinjin.river.RiverApplication      : No active profile set, falling back to default profiles: default
+2021-03-15 11:49:49.297  INFO 8444 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:49:49.616  INFO 8444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:49:49.624  INFO 8444 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 3 custom documentation plugin(s)
+2021-03-15 11:49:49.639  INFO 8444 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:49:49.700  INFO 8444 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:49:49.732  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2021-03-15 11:49:49.735  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-15 11:49:49.735  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_1
+2021-03-15 11:49:49.736  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_1
+2021-03-15 11:49:49.736  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_1
+2021-03-15 11:49:49.737  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_1
+2021-03-15 11:49:49.737  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_1
+2021-03-15 11:49:49.738  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_1
+2021-03-15 11:49:49.738  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_1
+2021-03-15 11:49:49.740  INFO 8444 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:49:49.742  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2021-03-15 11:49:49.742  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2021-03-15 11:49:49.743  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2021-03-15 11:49:49.743  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2021-03-15 11:49:49.744  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2021-03-15 11:49:49.745  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2021-03-15 11:49:49.745  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2021-03-15 11:49:49.746  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2021-03-15 11:49:49.751  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingGET_1
+2021-03-15 11:49:49.752  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingHEAD_1
+2021-03-15 11:49:49.752  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPOST_1
+2021-03-15 11:49:49.753  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPUT_1
+2021-03-15 11:49:49.753  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPATCH_1
+2021-03-15 11:49:49.753  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingDELETE_1
+2021-03-15 11:49:49.754  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingOPTIONS_1
+2021-03-15 11:49:49.754  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingTRACE_1
+2021-03-15 11:49:49.756  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_2
+2021-03-15 11:49:49.757  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-15 11:49:49.759  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_2
+2021-03-15 11:49:49.760  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_2
+2021-03-15 11:49:49.760  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_2
+2021-03-15 11:49:49.760  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_2
+2021-03-15 11:49:49.761  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_2
+2021-03-15 11:49:49.761  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_2
+2021-03-15 11:49:49.762  INFO 8444 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_2
+2021-03-15 11:49:49.770  INFO 8444 --- [main] com.fujinjin.river.RiverApplication      : Started RiverApplication in 1.788 seconds (JVM running for 2.375)
+2021-03-15 11:50:00.996  INFO 8444 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 11:50:01.186  INFO 8444 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 11:50:23.910  INFO 8892 --- [main] com.fujinjin.river.RiverApplication      : Starting RiverApplication using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 8892 (D:\javawj\river\target\classes started by 86176 in D:\javawj\river)
+2021-03-15 11:50:23.912  INFO 8892 --- [main] com.fujinjin.river.RiverApplication      : No active profile set, falling back to default profiles: default
+2021-03-15 11:50:24.882 ERROR 8892 --- [main] o.m.spring.mapper.MapperFactoryBean      : Error while adding the mapper 'interface com.fujinjin.river.dao.mapper.UserMapper' to configuration.
+
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:182) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:129) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:775) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80) ~[mybatis-spring-2.0.2.jar:2.0.2]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at com.fujinjin.river.RiverApplication.main(RiverApplication.java:10) ~[classes/:na]
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.5.2.jar:3.5.2]
+	... 54 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.2.jar:3.5.2]
+	... 58 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.2.jar:3.5.2]
+	... 60 common frames omitted
+
+2021-03-15 11:50:24.903 ERROR 8892 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\javawj\river\target\classes\com\fujinjin\river\dao\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.4.3.jar:2.4.3]
+	at com.fujinjin.river.RiverApplication.main(RiverApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\javawj\river\target\classes\com\fujinjin\river\dao\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.4.jar:5.3.4]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userMapper' defined in file [D:\javawj\river\target\classes\com\fujinjin\river\dao\mapper\UserMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.4.jar:5.3.4]
+	... 35 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83) ~[mybatis-spring-2.0.2.jar:2.0.2]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.4.jar:5.3.4]
+	... 45 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/fujinjin/river/dao/mapper/UserMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:182) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:129) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:775) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80) ~[mybatis-spring-2.0.2.jar:2.0.2]
+	... 48 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.5.2.jar:3.5.2]
+	... 54 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.2.jar:3.5.2]
+	... 58 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.2.jar:3.5.2]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.5.2.jar:3.5.2]
+	... 60 common frames omitted
+
+2021-03-15 11:51:44.256  INFO 11316 --- [main] com.fujinjin.river.RiverApplication      : Starting RiverApplication using Java 13.0.2 on LAPTOP-C9F0LBF5 with PID 11316 (D:\javawj\river\target\classes started by 86176 in D:\javawj\river)
+2021-03-15 11:51:44.258  INFO 11316 --- [main] com.fujinjin.river.RiverApplication      : No active profile set, falling back to default profiles: default
+2021-03-15 11:51:45.344  INFO 11316 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-15 11:51:45.655  INFO 11316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-15 11:51:45.663  INFO 11316 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 3 custom documentation plugin(s)
+2021-03-15 11:51:45.682  INFO 11316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:51:45.740  INFO 11316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:51:45.767  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2021-03-15 11:51:45.769  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-03-15 11:51:45.770  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_1
+2021-03-15 11:51:45.771  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_1
+2021-03-15 11:51:45.771  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_1
+2021-03-15 11:51:45.772  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_1
+2021-03-15 11:51:45.772  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_1
+2021-03-15 11:51:45.773  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_1
+2021-03-15 11:51:45.773  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_1
+2021-03-15 11:51:45.775  INFO 11316 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-15 11:51:45.776  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2021-03-15 11:51:45.777  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2021-03-15 11:51:45.778  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2021-03-15 11:51:45.779  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2021-03-15 11:51:45.780  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2021-03-15 11:51:45.780  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2021-03-15 11:51:45.781  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2021-03-15 11:51:45.781  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2021-03-15 11:51:45.786  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingGET_1
+2021-03-15 11:51:45.787  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingHEAD_1
+2021-03-15 11:51:45.787  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPOST_1
+2021-03-15 11:51:45.788  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPUT_1
+2021-03-15 11:51:45.788  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingPATCH_1
+2021-03-15 11:51:45.789  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingDELETE_1
+2021-03-15 11:51:45.789  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingOPTIONS_1
+2021-03-15 11:51:45.790  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorHtmlUsingTRACE_1
+2021-03-15 11:51:45.791  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_2
+2021-03-15 11:51:45.792  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-03-15 11:51:45.794  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingHEAD_2
+2021-03-15 11:51:45.794  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPOST_2
+2021-03-15 11:51:45.795  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPUT_2
+2021-03-15 11:51:45.795  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingPATCH_2
+2021-03-15 11:51:45.795  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingDELETE_2
+2021-03-15 11:51:45.796  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingOPTIONS_2
+2021-03-15 11:51:45.796  INFO 11316 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingTRACE_2
+2021-03-15 11:51:45.805  INFO 11316 --- [main] com.fujinjin.river.RiverApplication      : Started RiverApplication in 1.769 seconds (JVM running for 2.383)
+2021-03-15 11:51:51.011  INFO 11316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 11:51:51.195  INFO 11316 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
