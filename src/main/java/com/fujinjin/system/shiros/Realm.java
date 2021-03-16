@@ -1,4 +1,4 @@
-package com.fujinjin.river.system.shiros;
+package com.fujinjin.system.shiros;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

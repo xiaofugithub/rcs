@@ -1,4 +1,4 @@
-package com.fujinjin.river.system.shiros;
+package com.fujinjin.system.shiros;
 
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
